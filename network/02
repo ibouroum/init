@@ -1,0 +1,2 @@
+ifconfig en0 | grep "broadcast" | cut -d ' ' -f6
+ping  10.11.255.255
